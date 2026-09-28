@@ -1,0 +1,10 @@
+cd "c:/Hackathon 2026/heritagevr"
+
+git init
+git add .
+git commit -m "Initial deployment setup"
+git branch -M main
+
+# then create a GitHub repo and run:
+git remote add origin https://github.com/YOUR_USERNAME/heritagevr.git
+git push -u origin main
